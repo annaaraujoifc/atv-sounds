@@ -2,31 +2,121 @@
             css reset
 =============================*/
 
-*{
+* {
     padding: 0;
     margin: 0;
     vertical-align: baseline;
     list-style: none;
     border: 0
 }
+
 /*============================
         formatação geral
 =============================*/
-html{
+html {
     font-size: 1vw;
-    margin: 2vw 10vw 3vw 10vw;
+    margin: 2vw 7vw 3vw 17vw;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 /*============================
     formatação do topo da pagina
 =============================*/
-html body header nav div{
+html body header nav div {
     display: flex;
 }
-html body header nav div ul li a{
- color: #121212;
- text-decoration: none;
+
+html body header nav div ul li a {
+    color: #121212;
+    text-decoration: none;
 }
-html body header nav div ul{
+
+html body header nav div ul {
     display: flex;
     margin: 0.2vw 0 0 45vw;
-html body main section#banner
+}
+
+div ul li {
+
+    padding: 0 15px 0 15px;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+header {
+
+    margin: 0 0 8vw 0;
+}
+
+/*============================
+    formatação da pagina
+=============================*/
+
+main section.banner {
+
+    display: flex;
+}
+
+main section.banner div {
+
+    margin: 7vw 0 0 15vw;
+}
+
+main section.banner div h1 {
+    padding: 0 0 4vw 0;
+    margin: 0 0 5vw 0;
+    font-size: 3vw;
+    font-weight: 100;
+    border-bottom: solid #DEDEDE;
+}
+
+div.foto {
+
+    display: flex;
+}
+
+section.banner {
+    padding: 0 0 6vw 0;
+    border-bottom: solid #DEDEDE;
+}
+
+section.browse {
+
+    display: flex;
+    margin: 5vw 0 0 0;
+}
+
+section.browse div {
+
+    margin: 0 20vw 0 0;
+}
+
+section.browse span {
+
+    color: rgb(83, 80, 80);
+}
+
+section.browse ol div{
+
+    margin: 0 0 3vw 0;
+    font-size: 2vw;
+}
+section.browse ol p {
+    padding: 1vw 0 2vw 0;
+    border-bottom: solid #DEDEDE;
+    color: #828282;
+    font-size: 2vw;
+
+}
+section.browse ol h3 {
+
+    font-weight: 100;
+}
+
+section.browse h2 {
+
+    font-size: 4vw;
+    font-weight: 100;
+    margin: 0 0 2vw 0;
+}
+
