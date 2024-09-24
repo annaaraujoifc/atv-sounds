@@ -1,0 +1,32 @@
+/*============================
+            css reset
+=============================*/
+
+*{
+    padding: 0;
+    margin: 0;
+    vertical-align: baseline;
+    list-style: none;
+    border: 0
+}
+/*============================
+        formatação geral
+=============================*/
+html{
+    font-size: 1vw;
+    margin: 2vw 10vw 3vw 10vw;
+}
+/*============================
+    formatação do topo da pagina
+=============================*/
+html body header nav div{
+    display: flex;
+}
+html body header nav div ul li a{
+ color: #121212;
+ text-decoration: none;
+}
+html body header nav div ul{
+    display: flex;
+    margin: 0.2vw 0 0 45vw;
+html body main section#banner
